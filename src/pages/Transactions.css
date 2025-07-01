@@ -1,0 +1,43 @@
+.transactions-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 260px;
+}
+
+.transactions-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #1e293b;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.transactions-table th,
+.transactions-table td {
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  text-align: center;
+}
+
+.transactions-table th {
+  background-color: #1f2937;
+  color: #ffffff;
+}
+
+.transactions-table tr.income {
+  background-color: #ecfdf5;
+}
+
+.transactions-table tr.expense {
+  background-color: #fef2f2;
+}

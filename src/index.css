@@ -1,0 +1,5 @@
+/* To push the main content to the right of sidebar */
+.page-content {
+  margin-left: 240px;
+  padding: 20px;
+}

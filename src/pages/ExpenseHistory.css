@@ -1,0 +1,89 @@
+/* 📁 src/pages/ExpenseHistory.css */
+
+.expense-history-container {
+  padding: 30px;
+  font-family: 'Segoe UI', sans-serif;
+  margin-left: 260px;
+}
+
+.expense-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #1f2937;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9fafb;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.expense-table th,
+.expense-table td {
+  border: 1px solid #e2e8f0;
+  padding: 12px;
+  text-align: center;
+}
+
+.expense-table th {
+  background-color: #1f2937;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.expense-table tr:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+.expense-table tr:hover {
+  background-color: #e0f2fe;
+}
+.delete-btn {
+  background-color: #dc2626;
+  color: white;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #5f6c75;
+}
+.edit-btn {
+  background-color: #facc15;
+  color: black;
+  padding: 4px 8px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
